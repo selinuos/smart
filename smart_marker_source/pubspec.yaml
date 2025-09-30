@@ -1,0 +1,23 @@
+name: smart_marker
+description: SmartMarker - Bluetooth SPP recorder for ESP32 IMU
+version: 0.1.0
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bluetooth_serial: ^0.4.0
+  path_provider: ^2.0.11
+  permission_handler: ^10.2.0
+  provider: ^6.0.5
+  intl: ^0.17.0
+  charts_flutter: ^0.12.0
+  flutter_foreground_task: ^3.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
